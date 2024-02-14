@@ -928,6 +928,25 @@ progress {
 }
 
 @media (min-width: 576px) {
+  #rentals-gallery .portfolio-item {
+    width: 21rem;
+    margin: 8px;
+  }
+  .portfolio-img-fluid {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+  }
+  #discover-gallery .portfolio-item {
+    width: 21rem;
+    min-height: 21rem;
+    margin: 8px;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
+  #discover-gallery .portfolio-img-fluid {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
   .col-sm {
     flex: 1 0 0%;
   }
@@ -1097,6 +1116,16 @@ progress {
   }
 }
 @media (min-width: 768px) {
+  #rentals-gallery .portfolio-item {
+    width: 22rem;
+    min-height: 15rem;
+    margin: 8px;
+  }
+  .portfolio-img-fluid {
+    width: 100%;
+    height: 16.5rem;
+    object-fit: cover;
+  }
   .col-md {
     flex: 1 0 0%;
   }
@@ -1990,6 +2019,25 @@ progress {
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+  }
+  #rentals-gallery .portfolio-item {
+    width: 21rem;
+    margin: 8px;
+  }
+  .portfolio-img-fluid {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+  }
+  #discover-gallery .portfolio-item {
+    width: 21rem;
+    min-height: 21rem;
+    margin: 8px;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
+  #discover-gallery .portfolio-img-fluid {
+    border-radius: 50%;
+    margin-bottom: 2rem;
   }
 }
 @media (max-width: 767.98px) {
