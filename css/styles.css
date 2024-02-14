@@ -5007,6 +5007,10 @@ textarea.form-control-lg {
 .alert-white .alert-link {
   color: #7a7a7a;
 }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 @keyframes progress-bar-stripes {
   0% {
@@ -11211,30 +11215,31 @@ body {
   outline: none;
   background-color: transparent;
 }
+#mainNav {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: none;
+  background-color: transparent;
+  /* transition: background-color 0.3s ease-in-out; */
+}
+#mainNav .navbar-brand {
+  padding: 0.5rem 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+#mainNav .nav-link {
+  transition: none;
+  padding: 1.5rem 3rem 3rem 3rem;
+  color: #ead2a0;
+}
+#mainNav .nav-link:hover {
+  color: rgb(34, 34, 34);
+  background-color: #ead2a0;
+}
+#mainNav .nav-link:active {
+  color: #fff;
+}
 @media (min-width: 992px) {
-  #mainNav {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    border-bottom: none;
-    background-color: transparent;
-    /* transition: background-color 0.3s ease-in-out; */
-  }
-  #mainNav .navbar-brand {
-    padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
-  }
-  #mainNav .nav-link {
-    transition: none;
-    padding: 2rem 3rem 3rem 3rem;
-    color: #ead2a0;
-  }
-  #mainNav .nav-link:hover {
-    color: rgb(34, 34, 34);
-    background-color: #ead2a0;
-  }
-  #mainNav .nav-link:active {
-    color: #fff;
-  }
+  
   /* #mainNav.navbar-shrink {
     background-color: transparent;
   } */
@@ -11268,19 +11273,112 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
+#page-top {
+  background-color: #000;
+}
 .masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 44rem;
   padding: 15rem 0;
-  background: url("../assets/img/homepage_pool_sea_bg.jpg");
   background-position: center;
   background-position-y: 60%;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  opacity: 0.95;
+}
+.homepage-masthead {
+  background: url("../assets/img/homepage_pool_sea_bg.jpg");
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 44rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-position-y: 50% !important;
+  background-position-x: 50% !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  opacity: 0.95;
+}
+.homepage-masthead-concierge-hover {
+  background: url("../assets/img/mercedes.jpeg") !important;
+  position: relative;
+  height: 100%;
+  width: auto;
+  min-height: 44rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-position-y: 50% !important;
+  background-position-x: 50% !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover !important;
+  opacity: 0.95;
+  /* animation: fadeIn 1s;  */
+}
+.homepage-masthead-rentals-hover {
+  background: url("../assets/img/tall_house.jpg") !important;
+  position: relative;
+  height: 100%;
+  width: auto;
+  min-height: 44rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-position-y: 50% !important;
+  background-position-x: 50% !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover !important;
+  opacity: 0.95;
+}
+.homepage-masthead-contact-hover {
+  background: url("../assets/img/monaco.jpg") !important;
+  position: relative;
+  height: 100%;
+  width: auto;
+  min-height: 44rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-position-y: 50% !important;
+  background-position-x: 50% !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover !important;
+  opacity: 0.95;
+  animation: fade;
+}
+.homepage-masthead-discover-hover {
+  background: url("../assets/img/small_pool.jpg") !important;
+  position: relative;
+  height: 100%;
+  width: auto;
+  min-height: 44rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-position-y: 50% !important;
+  background-position-x: 50% !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover !important;
+  opacity: 0.95;
+}
+.homepage-masthead-about-hover {
+  background: url("../assets/img/bay.jpg") !important;
+  position: relative;
+  height: 100%;
+  width: auto;
+  min-height: 44rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-position-y: 50% !important;
+  background-position-x: 50% !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover !important;
   opacity: 0.95;
 }
 #concierge-masthead {
@@ -11292,6 +11390,8 @@ body {
   background: url("../assets/img/boat.jpg");
   background-size: cover;
   background-position-y: 27%;
+  border-bottom-right-radius: 50% 13%;
+  border-bottom-left-radius: 50% 13%;
 }
 #contact-masthead {
   background: #000;
