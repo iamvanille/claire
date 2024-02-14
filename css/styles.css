@@ -2938,7 +2938,8 @@ textarea.form-control-lg {
   color: #dcceb2;
 }
 .light-rust-text {
-  color: #e1c096;
+  /* color: #e1c096; */
+  color: #D7C49F;
 }
 .eggshell-text {
   /* color: #fff0dd; */
