@@ -2991,7 +2991,7 @@ textarea.form-control-lg {
 }
 .eggshell-text {
   /* color: #fff0dd; */
-  color: #ffe4c3;
+  color: #fff4e6;
 }
 .large-text {
   font-size: 45px;
@@ -11287,7 +11287,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  opacity: 0.95;
 }
 .homepage-masthead {
   background: url("../assets/img/homepage_pool_sea_bg.jpg");
@@ -11385,6 +11384,7 @@ body {
   background: url("../assets/img/cannes.jpg");
   background-size: cover;
   background-position-y: 27%;
+  min-height: 48rem;
 }
 #about-masthead {
   background: url("../assets/img/boat.jpg");
