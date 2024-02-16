@@ -55,18 +55,18 @@ window.addEventListener('DOMContentLoaded', event => {
 // hover effect changing index page background image
 $(document).ready(function(){
     $('#concierge').hover(function(){
-        $('#homepage-masthead').toggleClass("homepage-masthead-concierge-hover");
+        $('#concierge-image').toggleClass("show-image");
     });
     $('#rentals').hover(function(){
-        $('#homepage-masthead').toggleClass("homepage-masthead-rentals-hover");
+        $('#rentals-image').toggleClass("show-image");
     });
     $('#discover').hover(function(){
-        $('#homepage-masthead').toggleClass("homepage-masthead-discover-hover");
+        $('#discover-image').toggleClass("show-image");
     });
     $('#about').hover(function(){
-        $('#homepage-masthead').toggleClass("homepage-masthead-about-hover");
+        $('#about-image').toggleClass("show-image");
     });
     $('#contact').hover(function(){
-        $('#homepage-masthead').toggleClass("homepage-masthead-contact-hover");
+        $('#contact-image').toggleClass("show-image");
     });
 });
