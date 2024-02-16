@@ -1116,6 +1116,10 @@ progress {
   }
 }
 @media (min-width: 768px) {
+  .concierge-title {
+    padding-top: 30rem; 
+    margin-left: 0px;
+  }
   #rentals-gallery .portfolio-item {
     width: 22rem;
     min-height: 15rem;
@@ -1464,6 +1468,10 @@ progress {
   }
 }
 @media (min-width: 1200px) {
+  .concierge-title {
+    padding-top: 30rem; 
+    margin-left: -45px;
+  }
   #rentals-gallery .portfolio-item {
     width: 23rem;
     min-height: 19rem;
@@ -2014,7 +2022,9 @@ progress {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
+@media (max-width: 375px) {
 
+}
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
@@ -4176,7 +4186,7 @@ textarea.form-control-lg {
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
-  --bs-navbar-brand-margin-end: 1rem;
+  /* --bs-navbar-brand-margin-end: 1rem; */
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
@@ -4214,7 +4224,7 @@ textarea.form-control-lg {
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
-  margin-right: var(--bs-navbar-brand-margin-end);
+  /* margin-right: var(--bs-navbar-brand-margin-end); */
   font-size: var(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
@@ -5195,6 +5205,20 @@ textarea.form-control-lg {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+@-webkit-keyframes slide-in-left {
+  100% { left: 0; }
+}
+
+@keyframes slide-in-left {
+  100% { left: 0; }
+}
+@-webkit-keyframes slide-in-right {
+  100% { left: 0; }
+}
+
+@keyframes slide-in-right {
+  100% { left: 0; }
+}
 
 @keyframes progress-bar-stripes {
   0% {
@@ -5969,6 +5993,15 @@ textarea.form-control-lg {
   }
   .claire-quote > .medium-text {
     font-size: 15px !important;
+  }
+  #mainNav .container {
+    margin-left: 2.5rem !important;
+    margin-right: 2.5rem !important;
+    flex-direction: column;
+  }
+  .concierge-title {
+    padding-top: 25rem; 
+    margin-left: 0;
   }
 }
 @media (max-width: 767.98px) {
