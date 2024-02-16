@@ -1158,6 +1158,10 @@ progress {
     border-bottom-right-radius: 58% 16%;
     border-bottom-left-radius: 60% 16%;
   }
+  #about-masthead .container p {
+    padding-top: 30rem;
+    margin-left: 0;
+  }
   .mid-large-text {
     font-size: 30px !important;
   }
@@ -3846,7 +3850,7 @@ textarea.form-control-lg {
     padding-right: 4rem;
   }
   .claire-img {
-    width:400px;
+    width:400px !important;
     margin-left:6rem;
   }
   .claire-quote {
@@ -6126,6 +6130,10 @@ textarea.form-control-lg {
   .claire-quote > .medium-text {
     font-size: 15px !important;
     margin-bottom: 1rem !important;
+  }
+  #about-masthead .container p {
+    padding-top: 13rem;
+    margin-left: 0;
   }
   #mainNav .container {
     margin-left: 2.5rem !important;
