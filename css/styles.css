@@ -680,10 +680,16 @@ progress {
   .container-sm, .container {
     max-width: 540px;
   }
+  .flex-row {
+    flex-direction: column !important;
+  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
+  }
+  .flex-row {
+    flex-direction: row !important;
   }
 }
 @media (min-width: 992px) {
@@ -928,6 +934,29 @@ progress {
 }
 
 @media (min-width: 576px) {
+  .travel-arr {
+    margin-bottom:1.5rem; 
+    margin-top:-2rem;
+  }
+  .about-section p {
+    margin-bottom: 2.5rem !important;
+  }
+  .homepage-masthead {
+    max-height: 40rem;
+    padding: 4rem 0;
+  }
+  .masthead {
+    padding: 4rem 0;
+  }
+  #infinity-sea-img {
+    padding:0; 
+    width:70%; 
+    margin-left:auto; 
+    margin-right:0;
+  }
+  .left-img {
+    margin-left: -9rem;
+  }
   #rentals-gallery .portfolio-item {
     width: 21rem;
     margin: 8px;
@@ -941,7 +970,6 @@ progress {
     width: 21rem;
     min-height: 21rem;
     margin: 8px;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   }
   #discover-gallery .portfolio-img-fluid {
     border-radius: 50%;
@@ -1116,9 +1144,39 @@ progress {
   }
 }
 @media (min-width: 768px) {
+  .large-text {
+    font-size: 45px;
+  }
+  .about-section p {
+    margin-bottom: 5rem !important;
+  }
+  #about-masthead {
+    border-bottom-right-radius: 58% 16%;
+    border-bottom-left-radius: 60% 16%;
+  }
+  .mid-large-text {
+    font-size: 30px !important;
+  }
+  #discover-gallery .portfolio-item {
+    width: 21rem;
+    min-height: 21rem;
+    margin: 8px;
+    padding: 2rem;
+  }
+  #rentals-masthead {
+    height: 30rem;
+    padding: 15rem 0;
+  }
+  #discover-masthead {
+    height: 15rem;
+  }
   .concierge-title {
     padding-top: 30rem; 
     margin-left: 0px;
+  }
+  .rentals-title {
+    padding-right: 5rem; 
+    text-align: right;
   }
   #rentals-gallery .portfolio-item {
     width: 22rem;
@@ -1299,6 +1357,25 @@ progress {
   }
 }
 @media (min-width: 992px) {
+  .travel-arr {
+    margin-bottom:1.5rem; 
+    margin-top:-4rem;
+  }
+  .rentals-title {
+    padding-top: 9rem; 
+    padding-right: 5rem; 
+    text-align: right;
+  }
+  .homepage-masthead {
+    min-height: 40rem;
+    padding: 15rem 0;
+  }
+  .masthead {
+    padding: 15rem 0;
+  }
+  #rentals-masthead {
+    height: 35rem;
+  }
   .col-lg {
     flex: 1 0 0%;
   }
@@ -1468,6 +1545,9 @@ progress {
   }
 }
 @media (min-width: 1200px) {
+  #rentals-masthead {
+    min-height: 44rem;
+  }
   .concierge-title {
     padding-top: 30rem; 
     margin-left: -45px;
@@ -2026,9 +2106,56 @@ progress {
 
 }
 @media (max-width: 575.98px) {
+  .travel-arr {
+    margin-bottom:1.5rem; 
+    margin-top:-2rem;
+  }
+  .flex-row {
+    flex-direction: column !important;
+  }
+  .about-section p {
+    margin-bottom: 2.5rem !important;
+  }
+  .mid-large-text {
+    font-size: 20px !important;
+  }
+  .large-text {
+    font-size: 30px !important;
+  }
+  .homepage-masthead {
+    max-height: 40rem;
+    padding: 4rem 0;
+  }
+  .masthead {
+    padding: 4rem 0;
+  }
+  .left-img {
+    margin-left: -2rem;
+  }
+  .about-section {
+    padding-top: 2.5rem !important;
+  }
+  .about-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #infinity-sea-img {
+    margin-left: -2rem;
+  }
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+  }
+  .rentals-title {
+    padding-top: 4rem;
+    padding-right: 1rem;
+    text-align: right;
+    color: #c78917;
+  }
+  #rentals-masthead {
+    min-height: 30rem;
+    padding: 15rem 0;
   }
   #rentals-gallery .portfolio-item {
     width: 21rem;
@@ -2043,7 +2170,7 @@ progress {
     width: 21rem;
     min-height: 21rem;
     margin: 8px;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 0;
   }
   #discover-gallery .portfolio-img-fluid {
     border-radius: 50%;
@@ -6003,6 +6130,9 @@ textarea.form-control-lg {
     padding-top: 25rem; 
     margin-left: 0;
   }
+  #rentals-masthead {
+    max-height: 30rem;
+  }
 }
 @media (max-width: 767.98px) {
   .modal-fullscreen-md-down {
@@ -7922,7 +8052,7 @@ textarea.form-control-lg {
 }
 
 .flex-row {
-  flex-direction: row !important;
+  flex-direction: row;
 }
 
 .flex-column {
@@ -11587,8 +11717,8 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 44rem;
-  padding: 15rem 0;
+  /* min-height: 44rem; */
+  /* padding: 15rem 0; */
   background-position: center;
   background-position-y: 60%;
   background-repeat: no-repeat;
@@ -11600,8 +11730,8 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 44rem;
-  padding: 15rem 0;
+  /* min-height: 44rem; */
+  /* padding: 15rem 0; */
   background-position: center;
   background-position-y: 50% !important;
   background-position-x: 50% !important;
@@ -11741,7 +11871,7 @@ body {
 }
 #discover-masthead {
   background: #000;
-  min-height: 18rem;
+  min-height: 15rem;
 }
 
 .masthead h1, .masthead .h1 {
@@ -11765,6 +11895,11 @@ body {
   }
 }
 @media (min-width: 992px) {
+  #about-masthead {
+    min-height: 44rem;
+    border-bottom-right-radius: 50% 13%;
+    border-bottom-left-radius: 50% 13%;
+  }
   .masthead {
     height: 100vh;
     padding: 0;
