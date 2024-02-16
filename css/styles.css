@@ -934,6 +934,10 @@ progress {
 }
 
 @media (min-width: 576px) {
+  #about-masthead {
+    border-bottom-right-radius: 60% 7%;
+    border-bottom-left-radius: 60% 6%;
+  }
   .travel-arr {
     margin-bottom:1.5rem; 
     margin-top:-2rem;
@@ -2106,6 +2110,10 @@ progress {
 
 }
 @media (max-width: 575.98px) {
+  #about-masthead {
+    border-bottom-right-radius: 60% 7% !important;
+    border-bottom-left-radius: 60% 6% !important;
+  }
   .travel-arr {
     margin-bottom:1.5rem; 
     margin-top:-2rem;
@@ -3722,7 +3730,7 @@ textarea.form-control-lg {
   }
   .claire-quote {
     width:265px;
-    margin-left:3rem;
+    margin-left:-3rem;
     margin-top:auto;
     font-size: 15px;
   }
@@ -6106,20 +6114,18 @@ textarea.form-control-lg {
   }
   .claire-quote {
     width:265px;
-    margin-left:3rem;
+    margin-left:-3rem;
     margin-top:auto;
     font-size: 15px;
   }
-  .claire-quote {
-    max-width:265px;
-  }
   .claire-quote > .mid-large-text {
     width:265px;
-    margin-left:0rem;
+    margin-left:-03em;
     font-size: 17px !important;
   }
   .claire-quote > .medium-text {
     font-size: 15px !important;
+    margin-bottom: 1rem !important;
   }
   #mainNav .container {
     margin-left: 2.5rem !important;
@@ -7990,7 +7996,9 @@ textarea.form-control-lg {
 .w-50 {
   width: 50% !important;
 }
-
+.w-65 {
+  width: 65% !important;
+}
 .w-75 {
   width: 75% !important;
 }
@@ -8022,7 +8030,9 @@ textarea.form-control-lg {
 .h-50 {
   height: 50% !important;
 }
-
+.h-65 {
+  height: 65% !important;
+}
 .h-75 {
   height: 75% !important;
 }
