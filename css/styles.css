@@ -1556,6 +1556,9 @@ progress {
   #rentals-masthead {
     min-height: 44rem;
   }
+  #rentals-masthead .rentals-title {
+    padding-top: 17rem;
+  }
   .concierge-title {
     padding-top: 30rem; 
     margin-left: -45px;
