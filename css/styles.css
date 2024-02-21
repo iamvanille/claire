@@ -1186,6 +1186,9 @@ progress {
     padding-right: 5rem; 
     text-align: right;
   }
+  .left-img {
+    margin-left: -11rem;
+  }
   #rentals-gallery .portfolio-item {
     width: 22rem;
     min-height: 15rem;
@@ -1365,6 +1368,9 @@ progress {
   }
 }
 @media (min-width: 992px) {
+  .left-img {
+    margin-left: -11rem;
+  }
   .travel-arr {
     margin-bottom:1.5rem; 
     margin-top:-4rem;
@@ -3885,7 +3891,7 @@ textarea.form-control-lg {
   }
   .text-to-right {
     width: 72%; 
-    margin-left: 12rem;
+    margin-left: 16rem;
   }
   .text-to-left {
     width: 100%; 
