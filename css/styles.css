@@ -1149,6 +1149,11 @@ progress {
   }
 }
 @media (min-width: 768px) {
+  .utmost-care {
+    padding-bottom: 5rem; 
+    max-width: 73%; 
+    margin-left: 0rem;
+  }
   .large-text {
     font-size: 45px;
   }
@@ -1560,6 +1565,11 @@ progress {
   }
 }
 @media (min-width: 1200px) {
+  .utmost-care {
+    padding-bottom: 5rem;
+    max-width: 80%;
+    margin-left: -1rem !important;
+  }
   #rentals-masthead {
     min-height: 44rem;
   }
@@ -3187,7 +3197,7 @@ textarea.form-control-lg {
 }
 .kiona-text-bold {
   /* font-family: 'kiona-bold'; */
-  font-family: Avenir;
+  font-family: avenir;
   font-weight: bold;
 }
 #discover-gallery .row > img {
@@ -3866,6 +3876,11 @@ textarea.form-control-lg {
     font-size: 12px;
     padding-right: 4rem;
   }
+  .utmost-care {
+    padding-bottom: 5rem;
+    max-width: 84% !important;
+    margin-left: -3.5rem !important;
+  }
   .claire-img {
     width:400px !important;
     margin-left:6rem;
@@ -3898,8 +3913,8 @@ textarea.form-control-lg {
     font-size: 20px !important;
   }
   .text-to-right {
-    width: 72%; 
-    margin-left: 16rem;
+    width: 80%;
+    margin-left: 14rem;
   }
   .text-to-left {
     width: 100%; 
@@ -3933,6 +3948,10 @@ textarea.form-control-lg {
     text-decoration: none;
     color: #caba9b;
   }
+  .text-to-right {
+    width: 80%; 
+    margin-left: 20rem;
+  }
   .claire-img {
     width:400px;
     margin-left:6rem;
@@ -3963,6 +3982,11 @@ textarea.form-control-lg {
     padding: 17px;
     text-decoration: none;
     color: #caba9b;
+  }
+  .utmost-care {
+    padding-bottom: 5rem;
+    max-width: 85% !important;
+    margin-left: -3rem !important;
   }
 }
 .dropup .dropdown-menu[data-bs-popper] {
