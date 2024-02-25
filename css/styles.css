@@ -3196,9 +3196,9 @@ textarea.form-control-lg {
   font-family: Avenir;
 }
 .kiona-text-bold {
-  /* font-family: 'kiona-bold'; */
-  font-family: avenir;
-  font-weight: bold;
+  font-family: 'kiona-bold';
+  /* font-family: avenir;
+  font-weight: bold; */
 }
 #discover-gallery .row > img {
   padding: 1rem;
