@@ -3572,10 +3572,14 @@ textarea.form-control-lg {
 .gourdon {
   /* margin-left: 9rem; */
   object-fit: cover;
+  max-height: 53rem !important;
 }
 .rendez-vous {
   margin-top: auto;
   margin-bottom: auto;
+}
+.footer-pad {
+  color: #ffdea6;
 }
 .fade {
   transition: opacity 0.15s linear;
