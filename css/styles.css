@@ -128,7 +128,8 @@
 body {
   margin: 0;
   /* font-family: var(--bs-body-font-family); */
-  font-family: 'Bodoni', Avenir;
+  /* font-family: 'Bodoni', Avenir; */
+  font-family: Avenir;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -3181,10 +3182,13 @@ textarea.form-control-lg {
   line-height: 1;
 }
 .kiona-text {
-  font-family: 'kiona';
+  /* font-family: 'kiona'; */
+  font-family: Avenir;
 }
 .kiona-text-bold {
-  font-family: 'kiona-bold';
+  /* font-family: 'kiona-bold'; */
+  font-family: Avenir;
+  font-weight: bold;
 }
 #discover-gallery .row > img {
   padding: 1rem;
