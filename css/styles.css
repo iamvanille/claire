@@ -3857,11 +3857,6 @@ textarea.form-control-lg {
     width:100%;
     font-size: 15px;
   }
-  .footer > .container {
-    display: flex;
-    flex-direction: row;
-    font-size: 17px;
-  }
   .footer-container {
     display: flex;
     flex-direction: row;
@@ -3943,6 +3938,12 @@ textarea.form-control-lg {
     width:100%;
     font-size: 15px;
   }
+  .footer > .container {
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    max-width: 63%;
+  }
   .footer .navbar-nav > li > a {
     padding: 17px;
     text-decoration: none;
@@ -3982,6 +3983,12 @@ textarea.form-control-lg {
     padding: 17px;
     text-decoration: none;
     color: #caba9b;
+  }
+  .footer > .container {
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    max-width: 60%;
   }
   .utmost-care {
     padding-bottom: 5rem;
