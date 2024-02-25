@@ -1387,8 +1387,8 @@ progress {
     text-align: right;
   }
   .homepage-masthead {
-    min-height: 40rem;
-    padding: 15rem 0;
+    min-height: 50rem;
+    padding: 20rem 0;
   }
   .masthead {
     padding: 15rem 0;
@@ -3130,7 +3130,7 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 #main-links {
-  margin-top: 11rem;
+  margin-top: 21rem;
   align-items: center;
   line-height: 3.5rem;
 }
@@ -3834,7 +3834,7 @@ textarea.form-control-lg {
   }
   .text-to-left {
     width: 70% !important; 
-    margin-left: 1rem;
+    margin-left: 3rem;
   }
 }
 
@@ -3913,7 +3913,7 @@ textarea.form-control-lg {
   }
   .text-to-left {
     width: 100%; 
-    margin-left: 4rem;
+    margin-left: -2rem;
   }
   .large-text {
     font-size: 45px;
