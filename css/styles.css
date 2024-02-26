@@ -127,6 +127,9 @@
 .source-sans-pro {
   font-family: 'Source Sans Pro';
 }
+.avenir {
+  font-family: Avenir;
+}
 body {
   margin: 0;
   /* font-family: var(--bs-body-font-family); */
