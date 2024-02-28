@@ -952,7 +952,7 @@ progress {
     margin-bottom: 2.5rem !important;
   }
   .homepage-masthead {
-    max-height: 40rem;
+    max-height: 35rem;
     padding: 4rem 0;
   }
   .masthead {
@@ -1154,6 +1154,15 @@ progress {
   }
 }
 @media (min-width: 768px) {
+  .homepage-masthead {
+    max-height: 40rem;
+    padding: 4rem 0;
+  }
+  #main-links {
+    margin-top: 17rem !important;
+    align-items: center;
+    line-height: 3.5rem;
+  }
   .utmost-care {
     padding-bottom: 5rem; 
     max-width: 73%; 
@@ -1379,6 +1388,11 @@ progress {
   }
 }
 @media (min-width: 992px) {
+  #main-links {
+    margin-top: 24rem !important;
+    align-items: center;
+    line-height: 3.5rem;
+  }
   .left-img {
     margin-left: -11rem;
   }
@@ -2160,7 +2174,7 @@ progress {
     font-size: 30px !important;
   }
   .homepage-masthead {
-    max-height: 40rem;
+    max-height: 35rem;
     padding: 4rem 0;
   }
   .masthead {
@@ -3134,11 +3148,6 @@ textarea.form-control-lg {
   color: #fff0cf;
   text-decoration: none;
 }
-#main-links {
-  margin-top: 21rem;
-  align-items: center;
-  line-height: 3.5rem;
-}
 .footer-nav {
   flex-direction: row;
 }
@@ -3728,6 +3737,11 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
+  #main-links {
+    margin-top: 10rem;
+    align-items: center;
+    line-height: 3.5rem;
+  }
   .dropdown-menu-sm-start {
     --bs-position: start;
   }
@@ -3938,6 +3952,11 @@ textarea.form-control-lg {
   .dropdown-menu-xl-end[data-bs-popper] {
     right: 0;
     left: auto;
+  }
+  #main-links {
+    margin-top: 22rem !important;
+    align-items: center;
+    line-height: 3.5rem;
   }
   .footer {
     width:100%;
@@ -6136,7 +6155,12 @@ textarea.form-control-lg {
 .modal-fullscreen .modal-body {
   overflow-y: auto;
 }
-
+@media (max-width: 420px) {
+  .footer .navbar-nav {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+}
 @media (max-width: 575.98px) {
   .modal-fullscreen-sm-down {
     width: 100vw;
@@ -6155,6 +6179,15 @@ textarea.form-control-lg {
   }
   .modal-fullscreen-sm-down .modal-body {
     overflow-y: auto;
+  }
+  #main-links {
+    margin-top: 15rem;
+    align-items: center;
+    line-height: 2.5rem;
+  }
+
+  .menu-button {
+    font-size: 24px;
   }
   .footer-pad {
     padding-bottom: 1rem;
@@ -6187,10 +6220,11 @@ textarea.form-control-lg {
   #about-masthead .container p {
     padding-top: 13rem;
     margin-left: 0;
+    font-size: 50px;
   }
   #mainNav .container {
-    margin-left: 2.5rem !important;
-    margin-right: 2.5rem !important;
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
     flex-direction: column;
   }
   .concierge-title {
