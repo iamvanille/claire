@@ -1226,8 +1226,10 @@ progress {
     margin-left: 0px;
   }
   .rentals-title {
-    padding-right: 5rem; 
+    color: #c78917;
+    padding-right: 0rem; 
     text-align: right;
+    padding-top: 5rem;
   }
   .left-img {
     margin-left: -11rem;
@@ -1424,6 +1426,7 @@ progress {
     margin-top:-4rem;
   }
   .rentals-title {
+    color: #eee0c6;
     padding-top: 9rem; 
     padding-right: 5rem; 
     text-align: right;
@@ -2191,6 +2194,9 @@ progress {
     margin-bottom:2.5rem;
     font-size: 15px;
     font-weight: 100px;
+  }
+  .huge-text {
+    font-size: 60px !important;
   }
   .w-75 {
     width: 100% !important;
@@ -3774,6 +3780,9 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
+  .huge-text {
+    font-size: 80px !important;
+  }
   #main-links {
     margin-top: 10rem;
     align-items: center;
@@ -3843,6 +3852,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
+  .huge-text {
+    font-size: 90px !important;
+  }
   .dropdown-menu-md-start {
     --bs-position: start;
   }
